@@ -1,0 +1,41 @@
+/*DEVELOPER: ZAHEEN FARID, IS117-002, SPRING, 2021 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.navbar img {
+    padding-left: 2rem;
+}
+.col img {
+    margin-left: 4rem;
+}
+
+.col p {
+    }
+#search{
+    position: absolute;
+    right: 0;
+    margin-right: 3rem;
+}
+
+h2 {
+    margin-left: 3rem;
+}
+
+h5 {
+    margin-right: 5rem;
+
+}
+
+p {
+    margin-right: 5rem;
+
+}

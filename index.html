@@ -1,0 +1,142 @@
+<!-- DEVELOPER: ZAHEEN FARID, IS117-002, Spring 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- ACTUAL CODE -->
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/home-icon.png" alt="home icon" height="50s"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">&nbsp;Home Page&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">&nbsp;About Us&nbsp;</a>
+                    </li>
+
+                    <!-- Dropdown --><li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                       data-toggle="dropdown">
+                        &nbsp;Team&nbsp;
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="squad.html">Squad</a>
+                        <a class="dropdown-item" href="kane.html">Players</a>
+                    </div>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">&nbsp;Contact Us&nbsp;</a>
+                    </li>
+                    </li>
+                    <li class="form-group" id="search">
+                        <input type="text" class="form-control" placeholder="search player">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!– A big box to call attention to particular text -->
+    <div class="container-fluid">
+        <div class="row"></div>
+        <div class="jumbotron">
+            <img src="images/tot.jpg" alt="team pic" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="images/newcastle.png" alt="newcastle image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Newcastle Utd vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: St James Park</p>
+                    <p class="card-text"><b>Premier League</b>:- Sun, 4 Apr, 9:05 pm</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/man_u.png" alt="manutd image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Manchester Utd vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: Tottenham Hostpur Stadium</p>
+                    <p class="card-text"><b>Premier League</b>:- 11 Apr, 11:30 pm</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/everton.png" alt="everton image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Everton vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: Goodison Park</p>
+                    <p class="card-text"><b>Premier League</b>:- 17 Apr, 10:00 pm</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/shef.png" alt="sheffield utd image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sheffield Utd vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: Tottenham Hotspur Stadium</p>
+                    <p class="card-text"><b>Premier League</b>:- 3 May, 2:15 am</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/wolves.png" alt="everton image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Wolves vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: Tottenham Hotspur Stadium</p>
+                    <p class="card-text"><b>Premier League</b>:- 13 May, 2:45 am</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/leicester.png" alt="everton image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Leicester vs Tottenham</h5>
+                    <p class="card-text"><b>Stadium</b>: King Power Stadium</p>
+                    <p class="card-text"><b>Premier League</b>:- 23 May, 11:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <br>
+    <br>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Ahmed Zaheen Abdul Farid &nbsp; April,2021. &nbsp; &nbsp;|  &nbsp; Terms  &nbsp; |  &nbsp; Privacy &nbsp; |  &nbsp; Contact  &nbsp; |</span>
+    </footer>
+</div>
+<!-- ACTUAL CODE FIN-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

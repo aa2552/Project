@@ -1,0 +1,51 @@
+/*DEVELOPER: ZAHEEN FARID, IS117-002, SPRING, 2021 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.navbar img {
+    padding-left: 2rem;
+}
+
+#search{
+    position: absolute;
+    right: 0;
+    margin-right: 3rem;
+}
+
+.card-text{
+    display: none;
+}
+
+.card-title:hover + .hide {
+    display: block;
+    color: red;
+
+}
+
+h2 {
+    margin-left: 3rem;
+}
+.card-group .dropdown-toggle{
+    margin-left: 50%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 320px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
